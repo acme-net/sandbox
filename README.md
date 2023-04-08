@@ -1,4 +1,4 @@
-# The Acmenet Sandbox
+# The AcmeNet Sandbox
 
 The Acmenet sandbox is a test network that anyone can join and subscribe and test their implementations. Subscribing to this Sandbox is important if,
 
