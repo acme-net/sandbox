@@ -20,12 +20,17 @@ To join the AcmeNet sandbox, one must be added to the AcmeNet sandbox registry. 
 
 Joining the AcmeNet Sandbox consists of the following steps
 
-## Step 1: create subscriber entry
+## Step 1: Create subscriber entry
 1. Clone this repository
 2. Checkout the `join` branch
-2. Add your entry at the bottom of the subscribers.json file. To know more about how to construct your entry, click [here](#)
-3. Save and commit your file with the message "subscribe"
-4. Wait for your PR to be approved
+3. Create a new branch that has the same name as your fully qualified domain name. For example if your FQDN is "example.com", then your branch name should be `example.com`. Please do not include subdomains. 
+4. Add your entry at the bottom of the `subscribers.json` file. To know more about how to construct your entry, click [here](#)
+5. Save and commit your file with the message "subscribe"
+
+## Step 2: Submit PR
+1. Create a PR to the `join` branch with the updated `subscriber.json` file
+2. In case your PR has merge conflicts, please resolve those conflicts and re-submit your PR
+3. Wait for your PR to be approved
 
 If your details have been verified by the community of participants or the AcmeNet administrator, you should find your entry in the subscribers.json file.
 
