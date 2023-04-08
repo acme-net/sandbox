@@ -1,0 +1,18 @@
+[
+  {
+    "subscriber_id" : "",
+    "subscriber_url" : "",
+    "type" : "",
+    "signing_pub_key": "",
+    "encr_pub_key" : "",
+    "location" : {
+      "city" : {
+        "code" : ""
+      },
+      "country" : {
+        "code" : ""
+      }
+    },
+    "domain" : ""
+  }
+]
